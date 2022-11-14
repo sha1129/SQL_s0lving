@@ -1,6 +1,6 @@
 ### User accept 
 
-```SQL
+
 WITH sentReq AS( 
     SELECT *
     FROM fb_friend_requests
