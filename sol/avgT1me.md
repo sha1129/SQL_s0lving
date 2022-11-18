@@ -1,8 +1,16 @@
 # Calculate each user's average session time
-<table> 
-
-
-</table>
+ <table>
+  <tr>
+    <td>user_id:</td>
+    <td>timestamp:</td>
+    <td>action:</td>
+  </tr>
+  <tr>
+    <td>int</td>
+    <td>datetime</td>
+    <td>vachar</td>
+  </tr>
+</table> 
 
 
 ```SQL
