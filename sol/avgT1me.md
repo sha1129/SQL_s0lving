@@ -6,13 +6,15 @@
   </tr>
   <tr>
     <td>user_id:</td>
-    <td>timestamp:</td>
-    <td>action:</td>
+    <td>int</td>
   </tr>
   <tr>
-    <td>int</td>
+    <td>timestamp:</td>
     <td>datetime</td>
-    <td>vachar</td>
+  </tr>
+  <tr>
+    <td>action:</td>
+    <td>varchar</td>
   </tr>
 </table> 
 
