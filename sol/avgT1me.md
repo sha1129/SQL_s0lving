@@ -7,11 +7,11 @@
     <td>int</td>
   </tr>
   <tr>
-    <td>timestamp:</td>
+    <td><b> timestamp: </b></td>
     <td>datetime</td>
   </tr>
   <tr>
-    <td>action:</td>
+    <td> <b> action: </b></td>
     <td>varchar</td>
   </tr>
 </table> 
