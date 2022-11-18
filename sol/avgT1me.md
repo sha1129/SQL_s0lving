@@ -1,4 +1,6 @@
 # Calculate each user's average session time
+
+### facebook_web_log
  <table>
   <tr>
     <td>user_id:</td>
