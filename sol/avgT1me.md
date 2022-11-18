@@ -3,7 +3,7 @@
 ### facebook_web_log
  <table>
   <tr>
-    <td>user_id:</td>
+    <td> <b>user_id: </b></td>
     <td>int</td>
   </tr>
   <tr>
