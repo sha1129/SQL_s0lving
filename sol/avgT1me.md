@@ -1,6 +1,8 @@
 # Calculate each user's average session time
+<table> 
 
-|------|------|
+
+</table>
 
 
 ```SQL
