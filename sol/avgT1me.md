@@ -2,6 +2,7 @@
  <table>
   <tr>
    <th>facebook_web_log</th>
+   <th></th>
   </tr>
   <tr>
     <td>user_id:</td>
