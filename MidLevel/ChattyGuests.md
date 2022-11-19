@@ -14,7 +14,7 @@ FROM airbnb_contacts a
 JOIN totalNumOfMsg t ON a.id_guest = t.id_guest
 ORDER BY t.totMsg DESC;
 ```
-This is correct. However, as I ran the code it was giving wrong result by matching the host. The ranking is correct only difference my code vs expected answer was some rows are differnt. **The Ranking was correct**
+This is correct. However, as I ran the code it was giving wrong result by matching the host. The ranking is correct only difference my code vs expected answer was some rows are different. The Ranking was correct
 
 ### Online help
 I need to use Dense Ranking. This function "returns the rank of each row within a result set partition, with no gaps in the ranking values. The rank of a specific row is one plus the number of distinct rank values that come before that specific row." Learn Microsoft Dense_Rank
