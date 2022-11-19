@@ -12,4 +12,4 @@ FROM ranking
 WHERE numRank < 4
 ```
 
-This quire is modification of what the host asked. The question asked to get **3 most profitable companies**. However if the quire requires to **rank 3 most profitable companies** then this will work. 
+This quire is modification of what the question asked, that is to find the **3 most profitable companies**. However, if the quire requires to **rank 3 most profitable companies** then this will work. Also limit the result by 3, we can miss something.  
