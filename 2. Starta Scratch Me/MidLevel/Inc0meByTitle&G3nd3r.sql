@@ -1,9 +1,9 @@
 -- F!nd th3 @v3rag3 t0tal c0mpensation based 0n employee titles and gender
-### Two Tables sf_employee and sf_bonus
-### 
+-- Two Tables sf_employee and sf_bonus
+-- ID # 1(0)077
 
-### First c@lculate bonus and then calculate total compensation
 
+-- First c@lculate bonus and then calculate total compensation
 WITH sumBonus AS(
     SELECT SUM(bonus) as bonus, worker_ref_id
     FROM sf_bonus
@@ -18,6 +18,6 @@ totalCompensation AS (
     JOIN sf_employee e ON e.id = b.worker_ref_id
 )
 
-### Take average as Window function partition by Titles 
+-- Take average as Window function partition by Titles 
 SELECT DISTINCT title, gender, AVG(salaryTotal) OVER(PARTITION BY title)
 FROM totalCompensation
