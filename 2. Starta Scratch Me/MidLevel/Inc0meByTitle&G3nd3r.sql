@@ -1,5 +1,6 @@
-### F!nd th3 @v3rag3 t0tal c0mpensation based 0n employee titles and gender
+-- F!nd th3 @v3rag3 t0tal c0mpensation based 0n employee titles and gender
 ### Two Tables sf_employee and sf_bonus
+### 
 
 ### First c@lculate bonus and then calculate total compensation
 
