@@ -1,0 +1,8 @@
+-- F!nd matching h0sts and gu3sts pa!rs in a way that they are both of the same gender and nationality.
+-- Output the host id and the guest id of matched pair
+-- Dec 2, 2022
+-- ID 1(0)078
+
+SELECT distinct h.host_id, g.guest_id 
+FROM airbnb_hosts h
+JOIN airbnb_guests g ON g.nationality = h.nationality and g.gender = h.gender;
