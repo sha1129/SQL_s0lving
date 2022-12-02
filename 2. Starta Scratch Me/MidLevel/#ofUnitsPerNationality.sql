@@ -19,3 +19,11 @@ GROUP BY u.country
 ORDER BY county DESC
 
 -- Round 2
+-- I knew there was a easy way to solve the problem 
+-- Inside count needs to be distinct 
+
+SELECT  COUNT(distinct u.unit_id) , h.nationality 
+FROM airbnb_units u
+JOIN airbnb_hosts h ON u.host_id = h.host_id
+WHERE h.age < 30 AND u.unit_type = 'Apartment'
+group by h.nationality 
