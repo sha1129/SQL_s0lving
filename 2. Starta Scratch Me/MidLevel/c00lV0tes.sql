@@ -9,5 +9,11 @@ WITH ranking AS(
 SELECT distinct Y.business_name, Y.review_text, R.ranks
 FROM yelp_reviews Y 
 JOIN ranking R ON Y.cool = R.cool
-WHERE RANKS < 2
+WHERE RANKS < 2;
+
+-- I found an easier solution 0nline
+
+SELECT business_name, review_text
+FROM yelp_reviews
+WHERE cool=(SELECT max(cool) FROM yelp_reviews);
 
